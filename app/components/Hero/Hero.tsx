@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import arrow from '../../../public/assets/Arrow.png'
-import grad from '../../../public/assets/Gradient 2.png'
+import grad from '../../../public/assets/Gradient.png'
 import img from '../../../public/assets/mn.png'
 import google from '../../../public/assets/Google.png'
 import slack from '../../../public/assets/Slack.png'
@@ -28,10 +28,10 @@ function Hero() {
 
             </div>
 
-            <div className='h-full w-full relative flex justify-center'>
+            <div className='h-full w-full lg:mt-48 mt-5 relative flex justify-center'>
                 <Image src={grad} alt='grad' className='min-h-[500px] w-full object-cover lg:h-auto' />
 
-                <div className='absolute  top-0 flex w-full flex-col items-center'>
+                <div className='absolute  bottom-5 flex w-full flex-col items-center'>
                     <Image src={img} alt='image' className='-ml-10 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]' />
 
                     <div className='flex w-full flex-col items-center lg:container lg:flex-row lg:justify-center lg:px-20'>
