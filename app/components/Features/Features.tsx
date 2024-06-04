@@ -6,6 +6,8 @@ import feature3 from '../../../public/assets/Button.png'
 export function Features() {
     return (
         <>
+
+        {/* feature */}
             <div className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px]">
                 <div className="flex flex-col">
                     <Image src={feature1} alt="" className="hidden w-1/2 sm:block"></Image>
